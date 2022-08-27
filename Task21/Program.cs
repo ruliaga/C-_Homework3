@@ -15,4 +15,4 @@ int z2=Convert.ToInt32(Console.ReadLine());
 double L = Math.Round((Math.Sqrt(((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)+(z2-z1)*(z2-z1)))),2);
 
 
-Console.WriteLine($"Расстояние между двумя точками равно {L}");
+Console.WriteLine($"A({x1},{y1},{z1}); B({x2},{y2},{z2}) -> {L}");
